@@ -1,0 +1,56 @@
+/* Rules use !important because Ring's own stylesheet styles buttons globally. */
+
+.rvr-host {
+  position: relative !important;
+}
+
+.rvr-rotate-button {
+  position: absolute !important;
+  z-index: 2147483647 !important;
+  box-sizing: border-box !important;
+  width: 36px !important;
+  height: 36px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: none !important;
+  border-radius: 50% !important;
+  background: rgba(0, 0, 0, 0.55) !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  opacity: 0.75 !important;
+  transition: opacity 0.15s, background-color 0.15s !important;
+}
+
+.rvr-rotate-button:hover,
+.rvr-rotate-button:focus-visible {
+  opacity: 1 !important;
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.rvr-rotate-button:focus-visible {
+  outline: 2px solid #fff !important;
+  outline-offset: 2px !important;
+}
+
+.rvr-rotate-button[hidden] {
+  display: none !important;
+}
+
+.rvr-rotate-button svg {
+  display: block !important;
+  pointer-events: none !important;
+}
+
+/* Docked in Ring's live view control bar. The button borrows the classes of
+   Ring's fullscreen button for its shape and background; this only styles the icon. */
+.rvr-rotate-button--docked svg {
+  display: block !important;
+  flex: none !important; /* Ring's button padding could otherwise squeeze it to nothing */
+  width: 24px !important;
+  height: 24px !important;
+  color: #fff !important;
+  pointer-events: none !important;
+}

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Ring Video Rotator",
+  "version": "0.1.0",
+  "description": "Adds a button to rotate camera videos on account.ring.com.",
+  "content_scripts": [
+    {
+      "matches": ["https://account.ring.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "all_frames": true
+    }
+  ]
+}
