@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Detailed icon (48px and 128px): a doorbell ring with a Jolly Roger planted on it. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2AAAE6"/>
+      <stop offset="1" stop-color="#1285C2"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#bg)"/>
+
+  <!-- Ring -->
+  <circle cx="54" cy="80" r="24" fill="none" stroke="#fff" stroke-width="11"/>
+
+  <!-- Flag pole -->
+  <line x1="54" y1="16" x2="54" y2="58" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Waving flag -->
+  <path d="M54 20 C 68 13, 86 27, 106 19 L 106 53 C 86 61, 68 47, 54 54 Z" fill="#151515"/>
+
+  <!-- Crossbones -->
+  <g stroke="#fff" stroke-width="3.5" stroke-linecap="round">
+    <line x1="70" y1="28" x2="90" y2="46"/>
+    <line x1="90" y1="28" x2="70" y2="46"/>
+  </g>
+  <g fill="#fff">
+    <circle cx="69" cy="27" r="2.4"/>
+    <circle cx="91" cy="27" r="2.4"/>
+    <circle cx="69" cy="47" r="2.4"/>
+    <circle cx="91" cy="47" r="2.4"/>
+  </g>
+
+  <!-- Skull -->
+  <circle cx="80" cy="33" r="8.5" fill="#fff"/>
+  <rect x="75" y="36" width="10" height="8" rx="2" fill="#fff"/>
+  <circle cx="76.8" cy="33.5" r="2.4" fill="#151515"/>
+  <circle cx="83.2" cy="33.5" r="2.4" fill="#151515"/>
+  <g stroke="#151515" stroke-width="1" stroke-linecap="round">
+    <line x1="78.5" y1="41" x2="78.5" y2="44"/>
+    <line x1="81.5" y1="41" x2="81.5" y2="44"/>
+  </g>
+</svg>
